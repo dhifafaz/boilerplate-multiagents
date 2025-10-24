@@ -1,0 +1,29 @@
+--trusted-host 192.168.20.26
+--index-url http://192.168.20.26:6060/simple/
+langchain-ebdesk>=0.1.47
+
+--index-url http://192.168.20.26:6060/simple
+--trusted-host 192.168.20.26
+eb-labs
+
+langchain-community==0.2.5
+langchain-experimental==0.0.61
+langchain==0.2.5
+langchain-qdrant
+langchain-openai==0.1.20
+loguru
+pydantic==2.7.4
+qdrant_client
+python-dotenv
+srsly
+fastapi
+uvicorn
+httpx==0.27.0
+asyncio==3.4.3
+kafka-python==2.0.2
+jmespath==1.0.1
+json_repair==0.25.1
+jsonlines>=4.0.0
+httpx==0.27.0
+asyncio==3.4.3
+tiktoken==0.7.0
