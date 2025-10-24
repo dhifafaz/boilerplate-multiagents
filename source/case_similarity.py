@@ -15,7 +15,7 @@ import jmespath
 from tqdm import tqdm
 import srsly
 
-from source.db_service.qdrant_scv import AsyncQdrantService
+from source.db_clients.qdrant_scv import AsyncQdrantService
 from source.agents import CaseNamingAgent
 from source.config import settings
 
